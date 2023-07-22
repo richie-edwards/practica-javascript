@@ -69,5 +69,18 @@ menor de edad = menor de 18
 let edad = 20
 .... tu codigo aqui ....
 
-
 */
+let edad = 5;
+let restante = 20;
+let resultado =  restante - edad;
+
+if (edad >= 20 ){
+    console.log("Es mayor de edad");
+} 
+else {
+    console.log("Eres menor de edad");
+}
+if (edad <= 19){
+    edad = restante - edad;
+    console.log("Para ser mayor de edad te faltan: " + resultado + " años");
+}
