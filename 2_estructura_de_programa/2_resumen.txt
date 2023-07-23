@@ -1,0 +1,13 @@
+
+while and do loops
+- Para que se usan y cual es la diferencia?
+
+for loops
+- Describe las partes que forman un for loop.
+- Cuales son las formas de salir de un for loop?
+
+Describe estos operadores: +=, *=, -=
+
+Switch
+- Describe los componentes de un switch y como usar un switch?
+- Cuando seria buena idea usar un switch?

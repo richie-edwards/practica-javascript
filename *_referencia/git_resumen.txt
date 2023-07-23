@@ -1,0 +1,23 @@
+* Crear una rama en tu pc
+git checkout -b <nombre de rama nueva>
+Cuando estes listo para someter, usa el user interface para cometer.
+Cuando estes listo para empujar al repositorio central, usa "git push".
+Vas a ver un error porque el repositorio que acabas de crear usando
+"git checkout -b <nombre de rama nueva" solo crea el repositorio en tu pc.
+Cuando usas git push, es como diciendo "empuja estos codigos hacien la version central
+de este repositorio. Pero no existe todavia.
+
+
+* git checkout <nombre de rama>
+Usar la rama
+
+* git pull
+Actualizar tu version local de esta rama.
+
+* https://github.com/richie-edwards/practica-javascript/pulls
+Seleccionar tu rama y despues darle al boton "New pull request"
+Lo importante es escojer la rama principio y la rama destino correctamente. Ejemplo, quieres
+pedir permiso para que tu rama "mayor-de-edad-switch" sea mandada a la rama de "dev".
+El pull request debe de ser asi: [dev <- mayor-de-edad-switch]
+
+
