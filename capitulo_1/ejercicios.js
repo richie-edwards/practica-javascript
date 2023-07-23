@@ -70,17 +70,10 @@ let edad = 20
 .... tu codigo aqui ....
 
 */
-let edad = 5;
-let restante = 20;
-let resultado =  restante - edad;
+let edad = 14;
+let mayorEdad = 18;
 
-if (edad >= 20 ){
-    console.log("Es mayor de edad");
-} 
-else {
-    console.log("Eres menor de edad");
-}
-if (edad <= 19){
-    edad = restante - edad;
-    console.log("Para ser mayor de edad te faltan: " + resultado + " años");
-}
+(edad >= mayorEdad ) ? console.log("Es mayor de edad"): console.log(`Es menor de edad. Le faltan ${mayorEdad - edad} años para ser mayor de edad.`);
+
+console.log()
+
