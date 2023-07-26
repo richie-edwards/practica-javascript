@@ -20,4 +20,44 @@ Lo importante es escojer la rama principio y la rama destino correctamente. Ejem
 pedir permiso para que tu rama "mayor-de-edad-switch" sea mandada a la rama de "dev".
 El pull request debe de ser asi: [dev <- mayor-de-edad-switch]
 
+**************************************************************
 
+/* 1. 
+* Para este ejercicio, crea una rama "mayor-de-edad-switch" que inicia desde la rama "dev".
+
+Resoluciona el problem de "mayor de edad" del capitulo uno usando un switch.
+Es mejor la solucion con un switch o como estuvo anteriorment? Porque?
+*/
+
+// tu codigo aqui
+
+/* 2.
+* Para este ejercicio, crea una rama "mayor-de-edad-for" que inicia desde la rama "dev".
+Crea un for loop donde el resultado sea lo siguiente:
+
+A los 15 aÃ±os te faltan 3 aÃ±os para ser mayor de edad
+A los 16 aÃ±os te faltan 2 aÃ±os para ser mayor de edad
+A los 17 aÃ±os te falta 1 aÃ±o para ser mayor de edad
+Ya eres mayor de edad porque tienes 18 aÃ±os.
+
+Fijate que en este caso la edad es 15 y cada aÃ±o entre edad actual y edad mayor, escribimos al console
+cuantos aÃ±os faltan para ser mayor de edad. Si ya es mayor de edad, escribimos "Ya eres mayor de edad porque tienes 18 aÃ±os."
+
+Fijate que cuando falta un solo aÃ±o el lenguague es correcto.
+*/
+// tu codigo aqui
+
+**************************************************************
+
+while and do loops
+- Para que se usan y cual es la diferencia?
+
+for loops
+- Describe las partes que forman un for loop.
+- Cuales son las formas de salir de un for loop?
+
+Describe estos operadores: +=, *=, -=
+
+Switch
+- Describe los componentes de un switch y como usar un switch?
+- Cuando seria buena idea usar un switch?
