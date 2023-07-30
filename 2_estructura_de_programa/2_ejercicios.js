@@ -6,6 +6,18 @@ Es mejor la solucion con un switch o como estuvo anteriorment? Porque?
 */
 
 // tu codigo aqui
+let edad = 15;
+let restante = 18;
+
+
+switch(true){
+	case (edad <18):
+	console.log(`Eres menor de edad para ser mayor te faltan: ${restante - edad} años`);
+break;
+case (edad >= 18):
+	console.log(`Eres mayor de edad tienes: ${edad} años`);
+	break;
+	}
 
 /* 2.
 * Para este ejercicio, crea una rama "mayor-de-edad-for" que inicia desde la rama "dev".
