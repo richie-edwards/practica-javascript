@@ -6,19 +6,18 @@ Es mejor la solucion con un switch o como estuvo anteriorment? Porque?
 */
 
 // tu codigo aqui
-let edad = 15;
-let restante = 18;
+let edad = 25;
+const restante = 18;
 
 
-switch(true){
-	case (edad <18):
+switch(edad <= 18 ){
+	case (true):
 	console.log(`Eres menor de edad para ser mayor te faltan: ${restante - edad} años`);
 break;
-case (edad >= 18):
+case (false):
 	console.log(`Eres mayor de edad tienes: ${edad} años`);
 	break;
 	}
-
 /* 2.
 * Para este ejercicio, crea una rama "mayor-de-edad-for" que inicia desde la rama "dev".
 Crea un for loop donde el resultado sea lo siguiente:
@@ -34,3 +33,14 @@ cuantos años faltan para ser mayor de edad. Si ya es mayor de edad, escribimos 
 Fijate que cuando falta un solo año el lenguague es correcto.
 */
 // tu codigo aqui
+let edad = 10;
+let actualEdad = edad;
+let edadMayor = 18;
+
+for(actualEdad; actualEdad < edadMayor; actualEdad++) {    
+    console.log(`A los ${actualEdad}: te faltan ${edadMayor - actualEdad} años para ser mayor de edad `);
+}
+
+if (actualEdad >= 18){
+    console.log(`Ya eres mayor de edad tienes ${actualEdad} anos de edad`);
+}
