@@ -34,3 +34,16 @@ cuantos años faltan para ser mayor de edad. Si ya es mayor de edad, escribimos 
 Fijate que cuando falta un solo año el lenguague es correcto.
 */
 // tu codigo aqui
+const edad_actual = 15;
+const edad_mayor = 18;
+
+for (let edad = edad_actual; edad < edad_mayor; edad++) {
+    const años_faltantes = edad_mayor - edad - 1;
+    if (años_faltantes > 1) {
+        console.log(`A los ${edad} años te faltan ${años_faltantes} años para ser mayor de edad.`);
+    } else if (años_faltantes === 1) {
+        console.log(`A los ${edad} años te falta ${años_faltantes} año para ser mayor de edad.`);
+    } else {
+        console.log("Ya eres mayor de edad porque tienes 18 años.");
+    }
+}
